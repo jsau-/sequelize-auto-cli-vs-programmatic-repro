@@ -1,3 +1,5 @@
+See https://github.com/sequelize/sequelize-auto/issues/501
+
 A small-scale reproduction of an issue with `sequelize-auto` generating
 invalid models when including the `schema` flag.
 
