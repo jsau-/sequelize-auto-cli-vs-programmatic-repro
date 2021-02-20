@@ -38,3 +38,17 @@ src/models/public/GroupUser.ts:41:15 - error TS2322: Type 'string' is not assign
 
 A `create.sql` file has been included in `infrastructure/sql` to
 demonstrate the schema used to create this example.
+
+To run:
+
+- Assumes Postgres 12 running on localhost
+- User postgres
+- Password postgres
+- Database name postgres
+- Port 5440
+
+Any changes to this will need to be reflected in the `package.json` file, as
+well as `./generateModels.ts`.
+
+NPM script `npm run models` will generate models programmatically and via CLI,
+both with and without the schema flag.
