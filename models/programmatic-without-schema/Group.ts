@@ -76,12 +76,3 @@ export class Group extends Model<GroupAttributes, GroupCreationAttributes> imple
   return Group;
   }
 }
-     fields: [
-          { name: "id" },
-        ]
-      },
-    ]
-  });
-  return Group;
-  }
-}

@@ -57,14 +57,3 @@ export class Message extends Model<MessageAttributes, MessageCreationAttributes>
   return Message;
   }
 }
-ssages_pkey",
-        unique: true,
-        fields: [
-          { name: "id" },
-        ]
-      },
-    ]
-  });
-  return Message;
-  }
-}

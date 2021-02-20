@@ -65,14 +65,3 @@ export class GroupUser extends Model<GroupUserAttributes, GroupUserCreationAttri
   return GroupUser;
   }
 }
-   unique: true,
-        fields: [
-          { name: "group_id" },
-          { name: "user_id" },
-        ]
-      },
-    ]
-  });
-  return GroupUser;
-  }
-}
